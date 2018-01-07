@@ -5,7 +5,6 @@
 <html>
     <head>
         <title>My Conquier</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -18,7 +17,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <nav class="single-page-nav sticky-wrapper">
+        <nav class="single-page-nav">
             <ul class="navigation">
                 <li class="nav-item"><a href="#section1">Homepage</a></li>
                 <li class="nav-item"><a href="#section2">About Us</a></li>
@@ -204,6 +203,7 @@
 
                 $('.navbar-toggle').click(function(){
                     $('.single-page-nav').toggleClass('show');
+                    $('.navigation').removeClass('navigation').addClass('vertical-menu');
                 });
 
                 $('.single-page-nav a').click(function(){
