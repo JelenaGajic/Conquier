@@ -426,6 +426,9 @@ footer {
         display: grid;
         grid-template-columns: auto;
     }
+    .feature-content, .childAboutUsSecond {
+        margin-bottom: 20px;
+    }
     .single-page-nav {
         background-color: #383E4C;
         max-height: 0;
