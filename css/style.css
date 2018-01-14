@@ -384,12 +384,11 @@ footer {
 }
 
 /*
-*******************
-* media queries
+***media queries
 *******************
 */
 
-@media screen and (max-width: 990px) {
+@media (max-width: 990px) {
     .testemonal-area {
         display: grid;
         grid-template-columns: auto auto;
@@ -407,7 +406,7 @@ footer {
 
 /* hamburger menu */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .navbar-header {
         display: block;
         position: fixed;
@@ -459,7 +458,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 521px) {
+@media (max-width: 521px) {
     .testemonal-area {
         display: grid;
         grid-template-columns: auto;
